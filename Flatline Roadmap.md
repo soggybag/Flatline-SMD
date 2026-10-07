@@ -64,3 +64,25 @@ Take the **detector from the clean guitar** and put the **gain element after the
    - Feed R8 from DRY.
    - Start with SUSTAIN at minimum.
 4. **Loop test:** run a Big Muff between DRY and the gain-cell input (cut the U1A → U1B link). Fuzz into the gain cell, with the detector still on the clean input.
+
+## Dynamic fuzz vs clean-up distortion: separate designs (2026-10-07)
+
+Both ideas use a clean-input envelope follower driving a gain element. Where the gain element sits decides the effect:
+- **After the fuzz → dynamic fuzz.** The envelope controls the volume, so the fuzz breathes with your picking. This is Penfold's design (LM13700 VCA). **Test Penfold first.** If its envelope ripple is audible, the LED/LDR version (Flatline-style vactrol) may be smoother (see the Penfold roadmap).
+- **Before the clipper → clean-up distortion.** The envelope controls the drive: hard picking clips, soft picking and decays clean up. **Breadboard first**, as the LED/LDR version closest to Flatline / Punch Line: `~/Documents/KiCad/projects/Clean-Up Drive/`.
+
+**Decision:** separate pedals that share the envelope block. Combine them (dual OTA, DYNAMICS knob) only if both prove themselves.
+
+## TL072 vs OPA2134 (2026-10-07)
+
+- **In the original Flatline the audio op-amp also drove the bridge** (IC1A, through 330 Ω, into the LED string). That's where the OPA2134 helps most:
+  - it drives about 35 mA cleanly, against the TL072's ~20 mA;
+  - the TL072's output stage distorts under that pulsed rectifier load.
+
+  That's probably much of what Atomium heard.
+- **Flatline+ moves the bridge drive to U2**, so the audio op-amp is unloaded and the gap shrinks.
+- **What's left is noise and headroom:**
+  - **Noise:** OPA2134 ≈ 8 nV/√Hz against TL072 ≈ 18 nV/√Hz. That's about 7 dB less hiss, and it's amplified ×23 at full SUSTAIN. Audible in a compressor, because the compressor raises the noise floor.
+  - **Headroom:** slightly more output swing on 9 V.
+- **Cost:** OPA2134UA ≈ $2 plus JLC's extended-part fee; TL072 is a basic part at ≈ $0.10.
+- **Choice:** OPA2134 for U1 (audio), TL072 for U2 (side chain), as drawn. They're pin-compatible, so A/B them in a socket on the breadboard.
