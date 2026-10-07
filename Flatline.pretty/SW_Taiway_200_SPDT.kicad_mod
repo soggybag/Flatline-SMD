@@ -1,0 +1,56 @@
+(footprint "SW_Taiway_200_SPDT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Taiway Series 200 sub-miniature SPDT toggle (e.g. 200MSP1T1B1M1QE), 3 terminals at 2.54mm. Plated slots 2.0x0.8mm accept M1 solder lugs (1.55x0.50mm) and M2 PC pins (0.76x0.50mm). Body 5.10x8.10mm. Pin 2 = common. Datasheet: https://www.taiway.com/userfiles/files/products/03.Toggle_Switches/Series%20200_20241231.pdf")
+	(tags "switch SPDT toggle sub-miniature Taiway 200 solder lug")
+	(property "Reference" "REF**"
+		(at 0 -5.3 0)
+		(layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "SW_Taiway_200_SPDT"
+		(at 0 5.3 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "Datasheet" "https://www.taiway.com/userfiles/files/products/03.Toggle_Switches/Series%20200_20241231.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1.27 1.27)))
+	)
+	(property "Description" "Taiway Series 200 sub-mini SPDT toggle"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1.27 1.27)))
+	)
+	(attr through_hole)
+	(fp_rect (start -2.55 -4.05) (end 2.55 4.05) (stroke (width 0.12) (type solid)) (fill no) (layer "F.SilkS"))
+	(fp_rect (start -2.55 -4.05) (end 2.55 4.05) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab"))
+	(fp_rect (start -2.8 -4.3) (end 2.8 4.3) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
+	(fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
+	(pad "1" thru_hole roundrect (at 0 -2.54) (size 2.8 1.6) (drill oval 2.0 0.8) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (remove_unused_layers no))
+	(pad "2" thru_hole oval (at 0 0) (size 2.8 1.6) (drill oval 2.0 0.8) (layers "*.Cu" "*.Mask") (remove_unused_layers no))
+	(pad "3" thru_hole oval (at 0 2.54) (size 2.8 1.6) (drill oval 2.0 0.8) (layers "*.Cu" "*.Mask") (remove_unused_layers no))
+	(model "${KIPRJMOD}/3dmodels/switch_toggle_sub-mini_SPDT_onoff_shortlever.step"
+		(offset
+			(xyz -1.02 -1.02 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(embedded_fonts no)
+)

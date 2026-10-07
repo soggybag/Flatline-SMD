@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Flatline")(type "KiCad")(uri "${KIPRJMOD}/Flatline.pretty")(options "")(descr "Flatline+ project footprints"))
+)
