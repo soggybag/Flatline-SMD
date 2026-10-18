@@ -1,0 +1,9 @@
+Side,Label,X (mm),Y (mm),"Diameter (mm, raw aluminium)"
+A,"SUSTAIN",14.0,38.5,7.5
+A,"VOLUME",-14.25,38.5,7.5
+A,"GR LED (3 mm)",3.0,38.5,3.2
+A,"ON LED (3 mm)",-3.0,38.5,3.2
+A,"BLEND",0.0,19.5,7.5
+A,"RELEASE toggle (SW1, sub-mini)",16.5,18.0,5.2
+A,"TIGHT toggle (SW2, sub-mini)",-16.5,18.0,5.2
+A,"Footswitch 3PDT",0.0,-37.5,12.2

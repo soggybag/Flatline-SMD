@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.0mm" height="132.0mm" viewBox="-40.0 -66.0 80.0 132.0" font-family="Helvetica">
+<rect x="-30.0" y="-56.0" width="60.0" height="112.0" rx="4" fill="none" stroke="black" stroke-width="0.3"/>
+<text x="-30.0" y="-59.0" font-size="3">Flatline+ v1.1 — 1590B side A (face), outside view, 1:1. Origin = centre.</text>
+<line x1="-3" y1="0" x2="3" y2="0" stroke="#999" stroke-width="0.15"/><line x1="0" y1="-3" x2="0" y2="3" stroke="#999" stroke-width="0.15"/>
+<circle cx="14.0" cy="-38.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="13.0" y1="-38.5" x2="15.0" y2="-38.5" stroke="red" stroke-width="0.15"/><line x1="14.0" y1="-39.5" x2="14.0" y2="-37.5" stroke="red" stroke-width="0.15"/>
+<text x="10.0" y="-31.75" font-size="2.2" text-anchor="middle">SUSTAIN Ø7.5</text>
+<circle cx="-14.25" cy="-38.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="-15.25" y1="-38.5" x2="-13.25" y2="-38.5" stroke="red" stroke-width="0.15"/><line x1="-14.25" y1="-39.5" x2="-14.25" y2="-37.5" stroke="red" stroke-width="0.15"/>
+<text x="-10.0" y="-31.75" font-size="2.2" text-anchor="middle">VOLUME Ø7.5</text>
+<circle cx="3.0" cy="-38.5" r="1.6" fill="none" stroke="black" stroke-width="0.25"/><line x1="2.0" y1="-38.5" x2="4.0" y2="-38.5" stroke="red" stroke-width="0.15"/><line x1="3.0" y1="-39.5" x2="3.0" y2="-37.5" stroke="red" stroke-width="0.15"/>
+<text x="4.5" y="-42.6" font-size="1.8" text-anchor="middle">GR LED Ø3.2</text>
+<circle cx="-3.0" cy="-38.5" r="1.6" fill="none" stroke="black" stroke-width="0.25"/><line x1="-4.0" y1="-38.5" x2="-2.0" y2="-38.5" stroke="red" stroke-width="0.15"/><line x1="-3.0" y1="-39.5" x2="-3.0" y2="-37.5" stroke="red" stroke-width="0.15"/>
+<text x="-4.5" y="-42.6" font-size="1.8" text-anchor="middle">ON LED Ø3.2</text>
+<circle cx="0.0" cy="-19.5" r="3.75" fill="none" stroke="black" stroke-width="0.25"/><line x1="-1.0" y1="-19.5" x2="1.0" y2="-19.5" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="-20.5" x2="0.0" y2="-18.5" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="-12.75" font-size="2.2" text-anchor="middle">BLEND Ø7.5</text>
+<circle cx="16.5" cy="-18.0" r="2.6" fill="none" stroke="black" stroke-width="0.25"/><line x1="15.5" y1="-18.0" x2="17.5" y2="-18.0" stroke="red" stroke-width="0.15"/><line x1="16.5" y1="-19.0" x2="16.5" y2="-17.0" stroke="red" stroke-width="0.15"/>
+<text x="16.5" y="-12.4" font-size="2.2" text-anchor="middle">RELEASE Ø5.2</text>
+<circle cx="-16.5" cy="-18.0" r="2.6" fill="none" stroke="black" stroke-width="0.25"/><line x1="-17.5" y1="-18.0" x2="-15.5" y2="-18.0" stroke="red" stroke-width="0.15"/><line x1="-16.5" y1="-19.0" x2="-16.5" y2="-17.0" stroke="red" stroke-width="0.15"/>
+<text x="-16.5" y="-12.4" font-size="2.2" text-anchor="middle">TIGHT Ø5.2</text>
+<circle cx="0.0" cy="37.5" r="6.1" fill="none" stroke="black" stroke-width="0.25"/><line x1="-1.0" y1="37.5" x2="1.0" y2="37.5" stroke="red" stroke-width="0.15"/><line x1="0.0" y1="36.5" x2="0.0" y2="38.5" stroke="red" stroke-width="0.15"/>
+<text x="0.0" y="46.6" font-size="2.2" text-anchor="middle">Footswitch 3PDT Ø12.2</text>
+<rect x="-25" y="59.0" width="50" height="5" fill="none" stroke="black" stroke-width="0.2"/><text x="-24" y="62.8" font-size="2.5">Check: this box = 50 × 5 mm printed</text></svg>
