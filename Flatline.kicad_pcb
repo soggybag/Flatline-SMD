@@ -11849,6 +11849,28 @@
 		(layer "Edge.Cuts")
 		(uuid "5eb9ab37-91cb-4bac-954d-d738e284ff33")
 	)
+	(gr_text "Super-Freq.com"
+		(at 43.2 42.55 0)
+		(layer "F.SilkS")
+		(uuid "bee811d8-0996-47c2-af40-d1bc782a3ed6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+			)
+		)
+	)
+	(gr_text "Flatline+ V1.0"
+		(at 43.2 40.65 0)
+		(layer "F.SilkS")
+		(uuid "10bcb73e-d6d3-4667-809e-6bf445605114")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
 	(segment
 		(start 37.65 34.5)
 		(end 40 34.5)
