@@ -1,0 +1,12 @@
+Designator,Value,Footprint,Qty,Note
+RV1,A100k,Alpha RD901F-40 9mm vertical,1,"SUSTAIN - back side, top row outside-right"
+RV4,A100k,Alpha RD901F-40 9mm vertical,1,"VOLUME - back side, top row outside-left"
+RV3,B100k,Alpha RD901F-40 9mm vertical,1,"BLEND - back side, middle centre"
+RV2,1k,Bourns 3362P trimmer,1,"LED-string current trim (front side)"
+SW1,SPDT,Taiway 200 sub-mini toggle,1,"RELEASE - back side, middle row outside-right"
+SW2,SPDT,Taiway 200 sub-mini toggle,1,"TIGHT - back side, middle row outside-left (closed = off)"
+D6,GR LED,3 mm LED,1,"Gain-reduction LED, back side, top row (outside: right of centre)"
+D7,ON LED,3 mm LED,1,"ON LED, back side, top row (outside: left of centre); square pad = cathode"
+U3,Vactrol,VTL5C3 or DIY LED + LDR,1,"Front side, vertical between RELEASE and BLEND"
+J1,IN/LED/GND/OUT,1x4 header 2.54 mm,1,"To the SwitchPCB: 1 IN, 2 LED_K, 3 GND, 4 OUT"
+J2-J5,9V / GND / IN GND / OUT GND,wire pads,0,"DC jack and jack sleeves"
